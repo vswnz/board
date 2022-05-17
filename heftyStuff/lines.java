@@ -16,9 +16,6 @@ public class lines
             for (int x=0;x<COL-1;x++)
                 System.out.print(board[x][y]);
             System.out.println();
-        }
-    
-
-    }
-
-}
+        }  // for y
+    } // lines
+} // class
