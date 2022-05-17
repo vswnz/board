@@ -18,7 +18,11 @@ public class lines
             System.out.println();
         }
     
-
+    // add a cruiser
+    for (int i=2;i<=3;i++)
+      board[2][i]=1; // 1 is a ship
+        
+        
     }
 
 }
