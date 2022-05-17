@@ -12,10 +12,11 @@ public class lines
     public lines()
     {
         // show board
-        for (int y=0;y<ROW;y++){
-            for (int x=0;x<COL;x++)
+        for (int y=0;y<ROW-1;y++){
+            for (int x=0;x<COL-1;x++)
                 System.out.print(board[x][y]);
             System.out.println();
+
         }
     
     // add a cruiser
@@ -26,3 +27,8 @@ public class lines
     }
 
 }
+
+        }  // for y
+    } // lines
+} // class
+
